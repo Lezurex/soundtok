@@ -1,0 +1,9 @@
+# Do not track db data
+/db
+
+# Ignore all dump files
+*.sql
+
+# Ignore all user scripts except init script
+/scripts/*
+!/scripts/init.sql
